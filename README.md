@@ -219,19 +219,6 @@ O sistema implementa as seguintes medidas de segurança:
 - Confirme se o título da tarefa não está vazio
 - Verifique os logs de erro do PHP
 
-## 📝 Relatórios
-
-O sistema permite exportar tarefas em dois formatos:
-
-### PDF
-- Inclui estatísticas resumidas
-- Lista completa de tarefas com detalhes
-- Formatação profissional
-
-### Excel (CSV)
-- Formato compatível com Microsoft Excel
-- Separador de campos: ponto-e-vírgula (;)
-- Codificação UTF-8 com BOM
 
 ## 🔄 Fluxo da Aplicação
 
@@ -258,35 +245,3 @@ Dashboard (Página Principal)
 5. **Prepared Statements:** Proteção contra SQL Injection
 6. **password_hash():** Algoritmo seguro para hash de senhas
 
-## 🎓 Aprendizados
-
-Este projeto demonstra:
-- Desenvolvimento de aplicações web em PHP
-- Padrão MVC e organização de código
-- Segurança em aplicações web
-- Validação de formulários
-- Gerenciamento de banco de dados com MySQL
-- Design responsivo com Bootstrap
-- Validação no cliente e servidor
-
-## 📞 Suporte
-
-Para dúvidas ou problemas, verifique:
-1. A seção de Troubleshooting acima
-2. Os logs de erro do PHP
-3. O console do navegador (F12)
-4. As mensagens de erro exibidas na aplicação
-
-## 📜 Licença
-
-Este projeto é fornecido como trabalho acadêmico para fins educacionais.
-
-## 👨‍💻 Autor
-
-Desenvolvido como trabalho de conclusão para a disciplina de WEB2 - Trimestre 3.
-
----
-
-**Versão:** 1.0  
-**Data:** 2024  
-**Status:** Completo e funcional
